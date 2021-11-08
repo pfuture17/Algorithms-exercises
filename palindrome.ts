@@ -3,7 +3,7 @@ function isPalindrome(string: string) {
     let charactersArr = string.split('');
     let validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
-    let lettersArr: [] = [];
+    let lettersArr: string[] = [];
     charactersArr.forEach((char) => {
         if (validCharacters.indexOf(char) > -1) {
             lettersArr.push(char);
